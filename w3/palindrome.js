@@ -1,5 +1,6 @@
-// return true if palindrome
-// return false if not palindrome
+// [Exercises 5 (Auto)] Palindrome
+// Zoe Zachary - Phase 0 - Week 3
+
 function palindrome(kata) {
   var invertedKata = kata.split("");
   invertedKata.reverse();
