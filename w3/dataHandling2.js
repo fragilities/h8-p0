@@ -19,7 +19,7 @@ function dataHandling2(data) {
   var gender = 'Pria';
   var school = 'SMA Internasional Metro';
 
-  // could've been used pop() once and push() two times for adding both gender and school, but using splice will be more efficient LOC wise
+  // could've used pop() once and push() two times for adding both gender and school, but using splice will be more efficient LOC wise
   data.splice(4, 1, gender, school);
 
   // PRINTING input
