@@ -1,5 +1,6 @@
 function cariMedian(arr) {
   // you can only write your code here!
+  arr.sort(function(a, b) {return a-b;});
   if(arr.length%2 == 0) {
     return (arr[Math.floor(arr.length/2)-1] + arr[Math.ceil(arr.length/2)])/2;
   }
