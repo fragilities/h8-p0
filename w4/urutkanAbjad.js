@@ -1,16 +1,12 @@
 function urutkanAbjad(str) {
-  var charArr = [];
+  // var charArr = [];
 
-  for(var i in str) {
-    charArr.push(str[i]);
-  }
+  var strArr = [...str].sort(function(a, b) {return a.charCodeAt(0)-b.charCodeAt(0); });
+  var sortedStr = '';
 
-  charArr.sort(function(a, b) { return a.charCodeAt(0)-b.charCodeAt(0); });
+  for(var i in strArr) sortedStr = sortedStr + strArr[i];
 
-  var strTemp = '';
-  for(var i in charArr) strTemp = strTemp + charArr[i];
-
-  return strTemp;
+  return sortedStr;
 }
 
 // TEST CASES
