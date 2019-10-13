@@ -14,9 +14,9 @@ function changeMe(arr) {
 
     if(Object.keys(arr[i]).length < 4) person['age'] = 'Invalid Birth Year';
     else person['age'] = new Date().getFullYear()-arr[i][3];
-    console.log(person);
+    console.log(JSON.stringify(person));
   }
-
+  
   if(arr.length == 0) console.log('""');
 }
 
