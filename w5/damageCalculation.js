@@ -5,9 +5,7 @@ function attack (damage) {
 function damageCalculation (numberOfAttacks, damagePerAttack) {
   var totalDmg = 0;
 
-  for(var i = 0; i < numberOfAttacks; i++) {
-    totalDmg += attack(damagePerAttack);
-  }
+  for(var i = 0; i < numberOfAttacks; i++) totalDmg += attack(damagePerAttack);
 
   return totalDmg;
 }
