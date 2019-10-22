@@ -30,7 +30,7 @@ function graduates (students) {
     }
   }
 
-  return JSON.stringify(classes);
+  return classes;
 }
 
 console.log(graduates([

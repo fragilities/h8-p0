@@ -31,7 +31,7 @@ function countProfit(shoppers) {
     shopResults.push(shop);
   }
 
-  return JSON.stringify(shopResults);
+  return shopResults;
 }
 
 // TEST CASES

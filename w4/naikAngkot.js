@@ -21,7 +21,7 @@ function naikAngkot(arrPenumpang) {
     angkot.push(penumpang);
   }
 
-  return JSON.stringify(angkot);
+  return angkot;
 }
 
 //TEST CASE

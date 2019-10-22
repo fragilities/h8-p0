@@ -28,7 +28,7 @@ function shoppingTime(memberId, money) {
 
   shopping.changeMoney = money;
 
-  return JSON.stringify(shopping);
+  return shopping;
 }
 
 // TEST CASES

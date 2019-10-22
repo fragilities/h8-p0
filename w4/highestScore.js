@@ -28,7 +28,7 @@ function highestScore (students) {
     }
   }
 
-  return JSON.stringify(classes);
+  return classes;
 }
 
 // TEST CASE
